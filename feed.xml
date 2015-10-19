@@ -21,8 +21,8 @@ well as a spherical coordinate system which incorporates the curvature of the
 earth. &lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Oct 2015 00:00:00 -0600</pubDate>
-        <link>http://lanl-seismoacoustics.github.io/GeoAc/</link>
-        <guid isPermaLink="true">http://lanl-seismoacoustics.github.io/GeoAc/</guid>
+        <link>http://lanl-seismoacoustics.github.io/GeoAc-intro/</link>
+        <guid isPermaLink="true">http://lanl-seismoacoustics.github.io/GeoAc-intro/</guid>
       </item>
     
       <item>
@@ -77,8 +77,8 @@ programmers&lt;/li&gt;
 &lt;/ol&gt;
 </description>
         <pubDate>Sun, 11 Oct 2015 00:00:00 -0600</pubDate>
-        <link>http://lanl-seismoacoustics.github.io/PySAC/</link>
-        <guid isPermaLink="true">http://lanl-seismoacoustics.github.io/PySAC/</guid>
+        <link>http://lanl-seismoacoustics.github.io/PySAC-intro/</link>
+        <guid isPermaLink="true">http://lanl-seismoacoustics.github.io/PySAC-intro/</guid>
       </item>
     
       <item>
@@ -124,8 +124,8 @@ strings.&lt;/li&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;pip install git+https://github.com/jkmacc-LANL/pisces
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         <pubDate>Sat, 11 Oct 2014 00:00:00 -0600</pubDate>
-        <link>http://lanl-seismoacoustics.github.io/Pisces/</link>
-        <guid isPermaLink="true">http://lanl-seismoacoustics.github.io/Pisces/</guid>
+        <link>http://lanl-seismoacoustics.github.io/Pisces-intro/</link>
+        <guid isPermaLink="true">http://lanl-seismoacoustics.github.io/Pisces-intro/</guid>
       </item>
     
       <item>
@@ -143,8 +143,8 @@ below. References for each algorithm are provided in each section.&lt;/p&gt;
 &lt;p&gt;See the &lt;a href=&quot;https://jkmacc-lanl.github.io/inframonitor/&quot;&gt;project page&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jan 2014 00:00:00 -0700</pubDate>
-        <link>http://lanl-seismoacoustics.github.io/InfraMonitor/</link>
-        <guid isPermaLink="true">http://lanl-seismoacoustics.github.io/InfraMonitor/</guid>
+        <link>http://lanl-seismoacoustics.github.io/InfraMonitor-intro/</link>
+        <guid isPermaLink="true">http://lanl-seismoacoustics.github.io/InfraMonitor-intro/</guid>
       </item>
     
   </channel>
