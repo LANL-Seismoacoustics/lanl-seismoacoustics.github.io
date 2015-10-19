@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LANL Seismoacoustics</title>
+    <description>Open-source seismoacoustic software from Los Alamos National Laboratory</description>
+    <link>http://lanl-seismoacoustics.github.io</link>
+    <atom:link href="http://lanl-seismoacoustics.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>GeoAc</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/GeoAc-example.png&quot; alt=&quot;GeoAc rays&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;GeoAc is a numerical package written in C++ which solves the equations
+governing acoustic propagation through the atmosphere in the geometric limit
+using a RK4 algorithm. It contains multiple instances of said equation system
+and is able to model propagation in an azimuthal plane using the effective
+motionless medium approximation as well as in three dimensions using an
+inhomogeneous moving background medium. The three dimensional propagation
+scheme include methods to model propagation in a Cartesian coordinate system as
+well as a spherical coordinate system which incorporates the curvature of the
+earth. &lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Oct 2015 00:00:00 -0600</pubDate>
+        <link>http://lanl-seismoacoustics.github.io/GeoAc/</link>
+        <guid isPermaLink="true">http://lanl-seismoacoustics.github.io/GeoAc/</guid>
+      </item>
+    
+      <item>
+        <title>PySAC</title>
+        <description>&lt;p&gt;Python interface to the &lt;a href=&quot;http://ds.iris.edu/files/sac-manual/&quot;&gt;Seismic Analysis Code&lt;/a&gt; (SAC) file format.  &lt;/p&gt;
+
+&lt;p&gt;File-type support:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;little and big-endian binary format&lt;/li&gt;
+&lt;li&gt;alphanumeric format&lt;/li&gt;
+&lt;li&gt;evenly-sampled data&lt;/li&gt;
+&lt;li&gt;time-series, not spectra&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lanl-seismoacoustics.github.io/pysac&quot;&gt;Project page&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://github.com/lanl-seismoacoustics/pysac&quot;&gt;Repository&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://lanl-seismoacoustics.github.io/&quot;&gt;LANL Seismoacoustics&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Goals&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Expose the file format in a way that is intuitive to SAC users and to Python
+programmers&lt;/li&gt;
+&lt;li&gt;Maintaining header validity when converting between ObsPy Traces.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Features&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Read and write SAC binary or ASCII&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;autodetect or specify expected byteorder&lt;/li&gt;
+&lt;li&gt;optional file size checking and/or header consistency checks&lt;/li&gt;
+&lt;li&gt;header-only reading and writing&lt;/li&gt;
+&lt;li&gt;&amp;quot;overwrite OK&amp;quot; checking (&amp;#39;lovrok&amp;#39; header)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Convenient access and manipulation of relative and absolute time headers&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;User-friendly header printing/viewing&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fast access to header values from attributes&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;With type checking, null handling, and enumerated value checking&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Convert to/from ObsPy Traces&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Conversion from ObsPy Trace to SAC trace retains detected previous SAC header values.&lt;/li&gt;
+&lt;li&gt;Conversion to ObsPy Trace retains the &lt;em&gt;complete&lt;/em&gt; SAC header.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 11 Oct 2015 00:00:00 -0600</pubDate>
+        <link>http://lanl-seismoacoustics.github.io/PySAC/</link>
+        <guid isPermaLink="true">http://lanl-seismoacoustics.github.io/PySAC/</guid>
+      </item>
+    
+      <item>
+        <title>Pisces</title>
+        <description>&lt;p&gt;Pisces is a practical seismological database library in Python.
+Connect your Python analysis environment to a seismological database, without having to use a separate data-management language, like SQL or shell scripts.
+Pisces uses common open-source technologies and standards, and allows you to write portable, extensible, and scalable code.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jkmacc-lanl.github.io/pisces&quot;&gt;Documentation&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://github.com/jkmacc-LANL/pisces&quot;&gt;Repository&lt;/a&gt;  &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt; Import/export waveforms directly to/from your database.&lt;/li&gt;
+&lt;li&gt; Easy importing/exporting of text &amp;quot;flat-file&amp;quot; data tables.&lt;/li&gt;
+&lt;li&gt; Build database queries using Python objects and methods
+(&lt;a href=&quot;http:/www.sqlalchemy.org&quot;&gt;SQLAlchemy&lt;/a&gt;), not by concatenating SQL
+strings.&lt;/li&gt;
+&lt;li&gt; Integration with &lt;a href=&quot;http://www.obspy.org&quot;&gt;ObsPy&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt; Geographic filtering of results.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Requires:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; NumPy&lt;/li&gt;
+&lt;li&gt; ObsPy&lt;/li&gt;
+&lt;li&gt; SQLAlchemy&amp;gt;0.8&lt;/li&gt;
+&lt;li&gt; C, Fortran compiler&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Install from &lt;a href=&quot;https://pypi.python.org/pypi&quot;&gt;PyPI&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;pip install pisces-db
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Install current master from GitHub:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;pip install git+https://github.com/jkmacc-LANL/pisces
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Sat, 11 Oct 2014 00:00:00 -0600</pubDate>
+        <link>http://lanl-seismoacoustics.github.io/Pisces/</link>
+        <guid isPermaLink="true">http://lanl-seismoacoustics.github.io/Pisces/</guid>
+      </item>
+    
+      <item>
+        <title>InfraMonitor</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/IllustrationBISL.jpg&quot; alt=&quot;BISL Illustration&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;InfraMonitor is a Matlab-based tool for infrasound monitoring that incorporates
+LANL-developed detection, association, and location algorithms in addition to a
+Matlab implementation of the Tau-P raytracing technique (Garces et al., 1998,
+Drob et al., 2010).&lt;/p&gt;
+
+&lt;p&gt;InfraMonitor is based on three main algorithms - AFD, IA, and BISL - summarized
+below. References for each algorithm are provided in each section.&lt;/p&gt;
+
+&lt;p&gt;See the &lt;a href=&quot;https://jkmacc-lanl.github.io/inframonitor/&quot;&gt;project page&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Jan 2014 00:00:00 -0700</pubDate>
+        <link>http://lanl-seismoacoustics.github.io/InfraMonitor/</link>
+        <guid isPermaLink="true">http://lanl-seismoacoustics.github.io/InfraMonitor/</guid>
+      </item>
+    
+  </channel>
+</rss>
