@@ -5,10 +5,10 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-    <title>PySAC – LANL Seismoacoustics – Open-source seismoacoustic software from Los Alamos National Laboratory</title>
+    <title>PySAC – LANL Seismoacoustics – Open-source and licensed seismoacoustic software from Los Alamos National Laboratory</title>
 
     <meta name="author" content="LANL Seismoacoustics" />
-    <meta name="description" content="Open-source seismoacoustic software from Los Alamos National Laboratory">
+    <meta name="description" content="Open-source and licensed seismoacoustic software from Los Alamos National Laboratory">
 
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -16,7 +16,7 @@
 
     <link rel="stylesheet" type="text/css" href="/style.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <link rel="alternate" type="application/rss+xml" title="LANL Seismoacoustics - Open-source seismoacoustic software from Los Alamos National Laboratory" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="LANL Seismoacoustics - Open-source and licensed seismoacoustic software from Los Alamos National Laboratory" href="/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
@@ -47,33 +47,20 @@
 
 
   <div class="entry">
-    <p>Python interface to the <a href="http://ds.iris.edu/files/sac-manual/">Seismic Analysis Code</a> (SAC) file format.  </p>
-
-<p>File-type support:</p>
-
-<ul>
-<li>little and big-endian binary format</li>
-<li>alphanumeric format</li>
-<li>evenly-sampled data</li>
-<li>time-series, not spectra</li>
+    <ul>
+<li><a href="https://lanl-seismoacoustics.github.io/pysac">Project page</a><br></li>
+<li><a href="https://github.com/lanl-seismoacoustics/pysac">Repository</a><br></li>
+<li><a href="https://github.com/lanl-seismoacoustics/pysac/issues">Issue Tracking</a></li>
 </ul>
 
-<p><a href="https://lanl-seismoacoustics.github.io/pysac">Project page</a><br>
-<a href="https://github.com/lanl-seismoacoustics/pysac">Repository</a><br>
-<a href="https://lanl-seismoacoustics.github.io/">LANL Seismoacoustics</a></p>
-
-<h2>Goals</h2>
-
-<ol>
-<li>Expose the file format in a way that is intuitive to SAC users and to Python
-programmers</li>
-<li>Maintaining header validity when converting between ObsPy Traces.</li>
-</ol>
+<p>Python interface to the <a href="http://ds.iris.edu/files/sac-manual/">Seismic Analysis Code</a> (SAC) file format.
+PySAC includes both a low-level array-based interface and an intuitive higher-level
+object-oriented interface to SAC files. Both support conversions to and from ObsPy Traces.</p>
 
 <h2>Features</h2>
 
 <ol>
-<li><strong>Read and write SAC binary or ASCII</strong>
+<li><strong>Read and write SAC binary (little and big-endian) or ASCII evenly-sampled time-series</strong>
 
 <ul>
 <li>autodetect or specify expected byteorder</li>
